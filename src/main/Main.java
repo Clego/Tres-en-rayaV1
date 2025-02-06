@@ -5,9 +5,9 @@ import output.Output;
 import rules.Rules;
 import java.util.Random;
 import static input.Input.askContinue;
-import static validador.Validator.validateColumn;
-import static validador.Validator.validateRow;
-import validador.Validator;
+import static validator.Validator.validateColumn;
+import static validator.Validator.validateRow;
+import validator.Validator;
 
 public class Main {
     final static char[][] gameBoard = new char[3][3];
